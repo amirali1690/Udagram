@@ -291,6 +291,8 @@ Resources:
         Ref: WebAppLaunchConfig
       MinSize: '2'
       MaxSize: '6'
+      TargetGroupARNs:
+        - Ref: WebAppTargetGroup
   WebAppLB:
     Type: AWS::ElasticLoadBalancingV2::LoadBalancer
     Properties:
