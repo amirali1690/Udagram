@@ -271,7 +271,7 @@ Resources:
             systemctl start apache2.service
             aws s3 cp s3://udacity-demo-1/udacity.zip .
             sudo unzip -oj udacity.zip
-            echo "Udacity Demo Web Server Running!" > index.html
+            echo "Udacity Demo is Running!" > index.html
             systemctl restart apache2.service
         ImageId: ami-02701bcdc5509e57b
         KeyName: that-one
