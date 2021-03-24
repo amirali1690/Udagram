@@ -278,7 +278,7 @@ Resources:
         SecurityGroups:
         - Ref: WebServerSecGroup
         InstanceType: !Ref InstanceType
-        IamInstanceProfile: ListS3BucketsInstanceProfile
+        IamInstanceProfile: !Ref ListS3BucketsInstanceProfile
         BlockDeviceMappings:
         - DeviceName: "/dev/sdk"
           Ebs:
