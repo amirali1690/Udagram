@@ -336,6 +336,6 @@ Resources:
       VpcId: !Ref VPC
 
 Outputs:
-  LoadBalancerURL:
-    Description: The public url to load balancer
+  LBURL:
+    Description: LoadBalancer Public URL
     Value: !Join [ "", ["http://" , !GetAtt WebAppLB.DNSName ]]
