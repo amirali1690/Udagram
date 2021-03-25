@@ -273,7 +273,6 @@ Resources:
             sudo unzip -oj udacity.zip
             systemctl restart apache2.service
         ImageId: ami-02701bcdc5509e57b
-        KeyName: that-one
         SecurityGroups:
         - Ref: WebServerSecGroup
         InstanceType: !Ref InstanceType
