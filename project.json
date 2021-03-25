@@ -1,7 +1,7 @@
 [
   {
     "ParameterKey": "EnvironmentName",
-    "ParameterValue": "UdacityProjectDemo"
+    "ParameterValue": "Udagram"
   },
   {
     "ParameterKey": "VpcCIDR",
@@ -26,5 +26,14 @@
   {
     "ParameterKey": "InstanceType",
     "ParameterValue": "t3.medium"
+  },
+  {
+    "ParameterKey": "MinWebAppGroupSize",
+    "ParameterValue": "2"
+  },
+  {
+    "ParameterKey": "MaxWebAppGroupSize",
+    "ParameterValue": "6"
   }
+
 ]
